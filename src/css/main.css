@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    text-align: center;
+    background: #000;
+}
+@media (max-width: 220px) {
+    .wrapper {
+        display: flex;
+        text-align: center;
+        background: red;
+    }
+}
