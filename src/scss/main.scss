@@ -1,7 +1,7 @@
 // тк мы к ним обращаемся везде ниже
 @import "utils/vars";
 @import "utils/reset";
-@import "common";
+@import "common.scss";
 
 html {
    line-height: $mainLineHeight;

@@ -10,9 +10,15 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <h1 class="title">webpack</h1>
-        <img src="./assets/img/123.jpg" alt="">
+    <div id="app">
+        <div class="container">
+            <h1 class="title">webpack</h1>
+            <img src="./assets/img/123.jpg" alt="">
+            <button @click="component = !component">-__-</button>
+        </div>
+        <div class="wrapper">
+            <example-component v-show="component"></example-component>
+        </div>
     </div>
 </body>
 
