@@ -19,10 +19,19 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
+<style lang='scss' >
 h1 {
   color: green;
   font-size: 42px;
   font-weight: 600;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  height: 0;
 }
 </style>
